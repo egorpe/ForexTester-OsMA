@@ -1,0 +1,6 @@
+LIBRARY ForexTester-OsMA.dll
+
+EXPORTS Init
+	Calculate
+	ReplaceStr
+	IntrfProcsRec

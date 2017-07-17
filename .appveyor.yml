@@ -1,0 +1,15 @@
+version: 1.4.{build}
+
+image: Visual Studio 2017
+
+configuration: Release
+
+platform: x86
+
+build:
+  project: ForexTester-OsMA.sln
+  verbosity: minimal
+
+artifacts:
+- path: Release\ForexTester-OsMA.dll
+  name: ForexTester-OsMA.dll
